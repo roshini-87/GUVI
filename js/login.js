@@ -16,7 +16,6 @@
         success:function(response){
           alert(response);
           if(response == "Login Successful"){
-           // window.location.reload();
            window.location.href="./profile.html"
           }
         }
